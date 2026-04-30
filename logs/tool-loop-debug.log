@@ -407,3 +407,324 @@
   "hasAssistantToolCallFormat": true,
   "hasCompletionSignal": false
 }
+[2026-03-30T17:24:36.446Z] buildPromptFromMessages: {
+  "totalMessages": 4,
+  "totalTools": 0,
+  "messageSummary": [
+    {
+      "i": 0,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 2096,
+      "toolCallId": null
+    },
+    {
+      "i": 1,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 101,
+      "toolCallId": null
+    },
+    {
+      "i": 2,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 40,
+      "toolCallId": null
+    },
+    {
+      "i": 3,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 6,
+      "toolCallId": null
+    }
+  ],
+  "stats": {
+    "assistantWithToolCalls": 0,
+    "assistantEmpty": 0,
+    "toolResults": 0
+  },
+  "assistantDetails": [],
+  "emptyAssistantDetails": [],
+  "toolResultDetails": []
+}
+[2026-03-30T17:24:36.454Z] buildPromptFromMessages: final prompt: {
+  "lineCount": 4,
+  "promptLength": 2277,
+  "promptPreview": "SYSTEM: You are a title generator. You output ONLY a thread title. Nothing else.\n\n<task>\nGenerate a brief title that would help the user find this conversation later.\n\nFollow all rules in <rules>\nUse the <examples> so you know what a good title looks like.\nYour output must be:\n- A single line\n- ≤50 characters\n- No explanations\n</task>\n\n<rules>\n- you MUST use the same language as the user message you are summarizing\n- Title must be grammatically correct and read naturally - no word salad\n- Never ",
+  "hasToolResultFormat": false,
+  "hasAssistantToolCallFormat": false,
+  "hasCompletionSignal": false
+}
+[2026-03-30T17:24:36.457Z] buildPromptFromMessages: {
+  "totalMessages": 3,
+  "totalTools": 18,
+  "messageSummary": [
+    {
+      "i": 0,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 21919,
+      "toolCallId": null
+    },
+    {
+      "i": 1,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 497,
+      "toolCallId": null
+    },
+    {
+      "i": 2,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 6,
+      "toolCallId": null
+    }
+  ],
+  "stats": {
+    "assistantWithToolCalls": 0,
+    "assistantEmpty": 0,
+    "toolResults": 0
+  },
+  "assistantDetails": [],
+  "emptyAssistantDetails": [],
+  "toolResultDetails": []
+}
+[2026-03-30T17:24:36.457Z] buildPromptFromMessages: final prompt: {
+  "lineCount": 5,
+  "promptLength": 54888,
+  "promptPreview": "SYSTEM: You have access to the following tools. When you need to use one, respond with a tool_call in the standard OpenAI format.\nTool guidance: prefer write/edit for file changes; use bash mainly to run commands/tests.\n\nAvailable tools:\n- question: Use this tool when you need to ask the user questions during execution. This allows you to:\n1. Gather user preferences or requirements\n2. Clarify ambiguous instructions\n3. Get decisions on implementation choices as you work\n4. Offer choices to the us",
+  "hasToolResultFormat": false,
+  "hasAssistantToolCallFormat": false,
+  "hasCompletionSignal": false
+}
+[2026-03-30T17:28:06.668Z] buildPromptFromMessages: {
+  "totalMessages": 4,
+  "totalTools": 0,
+  "messageSummary": [
+    {
+      "i": 0,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 2096,
+      "toolCallId": null
+    },
+    {
+      "i": 1,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 101,
+      "toolCallId": null
+    },
+    {
+      "i": 2,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 40,
+      "toolCallId": null
+    },
+    {
+      "i": 3,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 6,
+      "toolCallId": null
+    }
+  ],
+  "stats": {
+    "assistantWithToolCalls": 0,
+    "assistantEmpty": 0,
+    "toolResults": 0
+  },
+  "assistantDetails": [],
+  "emptyAssistantDetails": [],
+  "toolResultDetails": []
+}
+[2026-03-30T17:28:06.668Z] buildPromptFromMessages: final prompt: {
+  "lineCount": 4,
+  "promptLength": 2277,
+  "promptPreview": "SYSTEM: You are a title generator. You output ONLY a thread title. Nothing else.\n\n<task>\nGenerate a brief title that would help the user find this conversation later.\n\nFollow all rules in <rules>\nUse the <examples> so you know what a good title looks like.\nYour output must be:\n- A single line\n- ≤50 characters\n- No explanations\n</task>\n\n<rules>\n- you MUST use the same language as the user message you are summarizing\n- Title must be grammatically correct and read naturally - no word salad\n- Never ",
+  "hasToolResultFormat": false,
+  "hasAssistantToolCallFormat": false,
+  "hasCompletionSignal": false
+}
+[2026-03-30T17:28:06.827Z] buildPromptFromMessages: {
+  "totalMessages": 3,
+  "totalTools": 18,
+  "messageSummary": [
+    {
+      "i": 0,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 21919,
+      "toolCallId": null
+    },
+    {
+      "i": 1,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 497,
+      "toolCallId": null
+    },
+    {
+      "i": 2,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 6,
+      "toolCallId": null
+    }
+  ],
+  "stats": {
+    "assistantWithToolCalls": 0,
+    "assistantEmpty": 0,
+    "toolResults": 0
+  },
+  "assistantDetails": [],
+  "emptyAssistantDetails": [],
+  "toolResultDetails": []
+}
+[2026-03-30T17:28:06.827Z] buildPromptFromMessages: final prompt: {
+  "lineCount": 5,
+  "promptLength": 54888,
+  "promptPreview": "SYSTEM: You have access to the following tools. When you need to use one, respond with a tool_call in the standard OpenAI format.\nTool guidance: prefer write/edit for file changes; use bash mainly to run commands/tests.\n\nAvailable tools:\n- question: Use this tool when you need to ask the user questions during execution. This allows you to:\n1. Gather user preferences or requirements\n2. Clarify ambiguous instructions\n3. Get decisions on implementation choices as you work\n4. Offer choices to the us",
+  "hasToolResultFormat": false,
+  "hasAssistantToolCallFormat": false,
+  "hasCompletionSignal": false
+}
+[2026-04-01T01:15:27.167Z] buildPromptFromMessages: {
+  "totalMessages": 4,
+  "totalTools": 0,
+  "messageSummary": [
+    {
+      "i": 0,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 2096,
+      "toolCallId": null
+    },
+    {
+      "i": 1,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 101,
+      "toolCallId": null
+    },
+    {
+      "i": 2,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 40,
+      "toolCallId": null
+    },
+    {
+      "i": 3,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 6,
+      "toolCallId": null
+    }
+  ],
+  "stats": {
+    "assistantWithToolCalls": 0,
+    "assistantEmpty": 0,
+    "toolResults": 0
+  },
+  "assistantDetails": [],
+  "emptyAssistantDetails": [],
+  "toolResultDetails": []
+}
+[2026-04-01T01:15:27.168Z] buildPromptFromMessages: final prompt: {
+  "lineCount": 4,
+  "promptLength": 2277,
+  "promptPreview": "SYSTEM: You are a title generator. You output ONLY a thread title. Nothing else.\n\n<task>\nGenerate a brief title that would help the user find this conversation later.\n\nFollow all rules in <rules>\nUse the <examples> so you know what a good title looks like.\nYour output must be:\n- A single line\n- ≤50 characters\n- No explanations\n</task>\n\n<rules>\n- you MUST use the same language as the user message you are summarizing\n- Title must be grammatically correct and read naturally - no word salad\n- Never ",
+  "hasToolResultFormat": false,
+  "hasAssistantToolCallFormat": false,
+  "hasCompletionSignal": false
+}
+[2026-04-01T01:15:27.177Z] buildPromptFromMessages: {
+  "totalMessages": 3,
+  "totalTools": 19,
+  "messageSummary": [
+    {
+      "i": 0,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 22647,
+      "toolCallId": null
+    },
+    {
+      "i": 1,
+      "role": "system",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 497,
+      "toolCallId": null
+    },
+    {
+      "i": 2,
+      "role": "user",
+      "hasToolCalls": 0,
+      "tcNames": "",
+      "contentType": "string",
+      "contentLen": 6,
+      "toolCallId": null
+    }
+  ],
+  "stats": {
+    "assistantWithToolCalls": 0,
+    "assistantEmpty": 0,
+    "toolResults": 0
+  },
+  "assistantDetails": [],
+  "emptyAssistantDetails": [],
+  "toolResultDetails": []
+}
+[2026-04-01T01:15:27.177Z] buildPromptFromMessages: final prompt: {
+  "lineCount": 5,
+  "promptLength": 55847,
+  "promptPreview": "SYSTEM: You have access to the following tools. When you need to use one, respond with a tool_call in the standard OpenAI format.\nTool guidance: prefer write/edit for file changes; use bash mainly to run commands/tests.\n\nAvailable tools:\n- question: Use this tool when you need to ask the user questions during execution. This allows you to:\n1. Gather user preferences or requirements\n2. Clarify ambiguous instructions\n3. Get decisions on implementation choices as you work\n4. Offer choices to the us",
+  "hasToolResultFormat": false,
+  "hasAssistantToolCallFormat": false,
+  "hasCompletionSignal": false
+}

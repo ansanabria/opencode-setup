@@ -3,7 +3,5 @@
   "keybinds": {
     "messages_first": "home"
   },
-  "scroll_acceleration": {
-    "enabled": true
-  }
+  "scroll_speed": 0.5
 }
